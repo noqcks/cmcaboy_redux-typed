@@ -8,7 +8,7 @@ export const history = createHistory();
 // Instead of BrowserRouter, we use the regular router,
 // but we pass in a customer history to it.
 const AppRouter = () => (
-  <Router history={history}>
+  <Router>
     <div>
       <Switch>
         <Route path="/" component={HomePage} />
