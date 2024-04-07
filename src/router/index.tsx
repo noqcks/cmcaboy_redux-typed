@@ -14,7 +14,7 @@ const AppRouter = () => (
         <Route path="/" element={<HomePage />} />
       </Routes>
     </div>
-  </Router>
+  </BrowserRouter>
 );
 
 export default AppRouter;
