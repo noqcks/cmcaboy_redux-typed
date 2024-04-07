@@ -12,7 +12,7 @@ const AppRouter = () => (
     <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-      </Switch>
+      </Routes>
     </div>
   </Router>
 );
