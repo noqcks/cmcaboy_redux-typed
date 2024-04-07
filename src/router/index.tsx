@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link, NavLink } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link, NavLink } from "react-router-dom";
 import createHistory from "history/createBrowserHistory";
 import HomePage from "../components/HomePage";
 
