@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link, NavLink } from "react-router-dom";
 import createHistory from "history/createBrowserHistory";
 import HomePage from "../components/HomePage";
 
@@ -10,8 +10,8 @@ export const history = createHistory();
 const AppRouter = () => (
   <Router>
     <div>
-      <Switch>
-        <Route path="/" component={HomePage} />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
       </Switch>
     </div>
   </Router>
